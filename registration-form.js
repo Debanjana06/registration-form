@@ -55,7 +55,7 @@ function validation()
     //  here we set the alert
 
      if(error)
-     {  if(val.length!=0){
+     {  if(val.length>1){
          
         alert(`Hobbies of ${fullName} (${gender}) are ${val.toString()} and ${values[values.length-1]}`)
      }else{
