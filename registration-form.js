@@ -55,8 +55,12 @@ function validation()
     //  here we set the alert
 
      if(error)
-     {
+     {  if(val.length!=0){
+         
         alert(`Hobbies of ${fullName} (${gender}) are ${val.toString()} and ${values[values.length-1]}`)
+     }else{
+         alert(`Hobbies of ${fullName} (${gender}) are ${values[values.length-1]}`)
+     }
 
     // here we create reset method
 
